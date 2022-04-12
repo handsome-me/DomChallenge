@@ -25,3 +25,9 @@
 .bc-red{
     background-color:red;
 }
+
+
+.gridView{
+    display: grid;
+    
+}

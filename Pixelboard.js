@@ -23,12 +23,10 @@ function renderView(root){
    
   const element=  createElement(div);
 
-  element.classList.add(style.gridView);
-  
-  
-   
+  element.classList.add(style.gridView); 
 
   root.appendChile(root);
+
 }
  
 
