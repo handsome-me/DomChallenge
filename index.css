@@ -1,4 +1,6 @@
-
+#root{
+    height: 200px;
+}
 .chessbox-view-container{
 
     display: flex;
@@ -29,13 +31,18 @@
 
 .grid{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(10, 1fr);
+  column-gap:0;
 
 }
 
 .gridBox{
     display: flex;
     border: 1px solid;
-    width: 100px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
+}
+
+.flex{
+    display: flex;
 }
